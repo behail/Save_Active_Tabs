@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  min-width: 400px;
+}
+h1 {
+  color: #fc4e03;
+  text-decoration: underline;
+  line-height: 1.5;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.container .btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container div button {
+  color: #fc4e03;
+  background-color: #fff;
+  border: 1px solid #fc4e03;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px 1px #fc4e03;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container div button:hover {
+  background-color: #fc4e03;
+  color: #fff;
+  box-shadow: 1px 1px 3px 1px #fc4e03;
+  border: 1px solid transparent;
+}
+.container div button.delete-all {
+  font-weight: normal;
+  box-shadow: none;
+  border: 1px solid #000;
+  color: #000;
+}
+.container div button.delete-all:hover {
+  color: #fc4e03;
+  background-color: #fff;
+  border: 1px solid #fc4e03;
+}
+
+ol#tab-lists {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: -23px;
+  color: #00bfff;
+}
+ol li {
+  margin-bottom: 10px;
+}
+a {
+  display: inline-block;
+  width: 50ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #00bfff;
+}
